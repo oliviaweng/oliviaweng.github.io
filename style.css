@@ -21,15 +21,15 @@ p
 }
 #container
 {
-	width: 3000px;
-	margin: 0;
-	padding: 0;
+	width: auto;
+	margin: auto;
+	padding: 10px;
 	background: lightslategray;
 }
 #header
 {
-	width: 3000px;
-	height: 150px;
+	width: auto;
+	height: 300px;
 	font: arial;
 	font-size: 64px;
 	color: white;
@@ -37,9 +37,9 @@ p
 }
 #content
 {
-	width: 3000px;
-	height: 500px;
-	margin: 0;
+	width: auto;
+	height: auto;
+	margin: auto;
 	padding: 0;
 	border: 0;
 	float: left;
@@ -47,9 +47,9 @@ p
 }
 #footer
 {
-	width: 3000px;
-	height: 70px;
-	margin: 0;
+	width: auto;
+	height: 50px;
+	margin: auto;
 	padding: 0;
 	border: 0;
 	float: left;
