@@ -1,58 +1,32 @@
 body
 {
-	background-color: darkslategray;
+	background-color: lightslategray;
 }
 a
 {
-	color: white;
+	color: red;
 }
 h1
 {
-	font-family: "Palatino Linotype", Palantino, serif;
+	font-family: arial;
 	color: darkblue;
-	font-size: 30px;
+	font-size: 50px;
+}
+h2
+{
+	font-family: arial;
+	font-size: 40px;
+	color: lightblue;
 }
 
 p
 {
 	font-family: Arial, sans-serif;
 	color: black;
+	font-size: 30px;
+}
+footer
+{
+	font-family: arial;
 	font-size: 20px;
-}
-#container
-{
-	width: auto;
-	margin: auto;
-	padding: 10px;
-	background: lightslategray;
-}
-#header
-{
-	width: auto;
-	height: 300px;
-	font: arial;
-	font-size: 64px;
-	color: white;
-	background: maroon;
-}
-#content
-{
-	width: auto;
-	height: auto;
-	margin: auto;
-	padding: 0;
-	border: 0;
-	float: left;
-	background: lightyellow;
-}
-#footer
-{
-	width: auto;
-	height: 50px;
-	margin: auto;
-	padding: 0;
-	border: 0;
-	float: left;
-	background: maroon;
-	clear: both;
 }
