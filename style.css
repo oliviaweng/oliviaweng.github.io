@@ -9,7 +9,7 @@ a
 h1
 {
 	font-family: arial;
-	color: darkblue;
+	color: white;
 	font-size: 50px;
 }
 h2
@@ -18,11 +18,10 @@ h2
 	font-size: 40px;
 	color: lightblue;
 }
-
 p
 {
-	font-family: Arial, sans-serif;
-	color: black;
+	font-family: arial;
+	color: white;
 	font-size: 30px;
 }
 footer
