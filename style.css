@@ -4,7 +4,7 @@ body
 }
 a
 {
-	color: red;
+	color: lightyellow;
 	font-family: arial;
 	font-size: 10px;
 }
@@ -28,7 +28,7 @@ p
 }
 footer
 {
-	color: red;
+	color: lightyellow;
 	font-family: arial;
 	font-size: 10px;
 }
