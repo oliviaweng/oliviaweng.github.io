@@ -1,18 +1,56 @@
 body
 {
-	background-color: lightcyan;
+	background-color: darkslategray;
 }
-
+a
+{
+	color: red;
+}
 h1
 {
 	font-family: "Palatino Linotype", Palantino, serif;
-	color: black;
+	color: darkblue;
 	font-size: 30px;
 }
 
 p
 {
-	font-family: Garamond, serif;
+	font-family: Arial, sans-serif;
 	color: black;
 	font-size: 20px;
+}
+#container
+{
+	width: 1000px;
+	margin: 0;
+	padding: 0;
+	background: lightslategray;
+}
+#header
+{
+	width: 1000px;
+	height: 150px;
+	font: garamond;
+	background: maroon;
+}
+#content
+{
+	width: 800px;
+	height: 500px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	float: left;
+	background: lightyellow;
+}
+#footer
+{
+	width: 1000px;
+	height: 70px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	float: left;
+	background: maroon;
+	clear: both;
 }
