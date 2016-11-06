@@ -1,0 +1,18 @@
+body
+{
+	background-color: lightcyan;
+}
+
+h1
+{
+	font-family: "Palatino Linotype", Palantino, serif;
+	color: lightslategray;
+	font-size: 30px;
+}
+
+p
+{
+	font-family: Garamond, serif;
+	color: white;
+	font-size: 20px;
+}
