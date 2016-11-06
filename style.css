@@ -5,6 +5,8 @@ body
 a
 {
 	color: red;
+	font-family: arial;
+	font-size: 5px;
 }
 h1
 {
@@ -27,5 +29,5 @@ p
 footer
 {
 	font-family: arial;
-	font-size: 20px;
+	font-size: 5px;
 }
