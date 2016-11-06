@@ -21,21 +21,22 @@ p
 }
 #container
 {
-	width: 1000px;
+	width: 1500px;
 	margin: 0;
 	padding: 0;
 	background: lightslategray;
 }
 #header
 {
-	width: 1000px;
+	width: 1500px;
 	height: 150px;
 	font: garamond;
+	font-size: 64px;
 	background: maroon;
 }
 #content
 {
-	width: 800px;
+	width: 1000px;
 	height: 500px;
 	margin: 0;
 	padding: 0;
@@ -45,7 +46,7 @@ p
 }
 #footer
 {
-	width: 1000px;
+	width: 1500px;
 	height: 70px;
 	margin: 0;
 	padding: 0;
