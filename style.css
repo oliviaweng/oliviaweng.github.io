@@ -4,7 +4,7 @@ body
 }
 a
 {
-	color: red;
+	color: white;
 }
 h1
 {
@@ -21,22 +21,23 @@ p
 }
 #container
 {
-	width: 1500px;
+	width: 3000px;
 	margin: 0;
 	padding: 0;
 	background: lightslategray;
 }
 #header
 {
-	width: 1500px;
+	width: 3000px;
 	height: 150px;
-	font: garamond;
+	font: arial;
 	font-size: 64px;
+	color: white;
 	background: maroon;
 }
 #content
 {
-	width: 1000px;
+	width: 3000px;
 	height: 500px;
 	margin: 0;
 	padding: 0;
@@ -46,7 +47,7 @@ p
 }
 #footer
 {
-	width: 1500px;
+	width: 3000px;
 	height: 70px;
 	margin: 0;
 	padding: 0;
