@@ -6,13 +6,13 @@ body
 h1
 {
 	font-family: "Palatino Linotype", Palantino, serif;
-	color: darkslateblue;
+	color: black;
 	font-size: 30px;
 }
 
 p
 {
 	font-family: Garamond, serif;
-	color: lightslategray;
+	color: black;
 	font-size: 20px;
 }
