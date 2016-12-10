@@ -1,46 +1,46 @@
 head
 {
-	font-family: arial;
+	font-family: verdana;
 }
 body
 {
-	background-color: midnightblue;
+	background-color: azure;
 }
 header
 {
 	color: forestgreen;
-	font-family: arial;
+	font-family: verdana;
 }
 h1
 {
-	color: cornsilk;
+	color: midnightblue;
 	font-size: 50px;
 }
 h2
 {
-	color: cornsilk;
-	font-family: arial;
+	color: midnightblue;
+	font-family: verdana;
 	font-size: 30px;
 }
 h3
 {
-	color: cornsilk;
+	color: midnightblue;
 	font-size: 23px;
 }
 p
 {
-	font-family: arial;
-	color: white;
+	font-family: verdana;
+	color: midnightblue;
 	font-size: 20px;
 }
 a
 {
-	color: cornsilk;
-	font-family: arial;
+	color: midnightblue;
+	font-family: verdana;
 }
 footer
 {
-	color: cornsilk;
-	font-family: arial;
+	color: midnightblue;
+	font-family: verdana;
 	font-size: 10px;
 }
