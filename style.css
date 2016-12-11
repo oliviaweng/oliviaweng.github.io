@@ -12,25 +12,29 @@ header
 {
 	font-family: verdana;
 }
+nav
+{
+	font-size: 16pt;
+}
 h1
 {
 	color: midnightblue;
-	font-size: 50px;
+	font-size: 36pt;
 }
 h2
 {
 	color: midnightblue;
-	font-size: 30px;
+	font-size: 24pt;
 }
 h3
 {
 	color: midnightblue;
-	font-size: 23px;
+	font-size: 16pt;
 }
 p
 {
 	color: midnightblue;
-	font-size: 20px;
+	font-size: 14pt;
 }
 a
 {
@@ -40,5 +44,5 @@ footer
 {
 	color: midnightblue;
 	font-family: verdana;
-	font-size: 10px;
+	font-size: 8pt;
 }
