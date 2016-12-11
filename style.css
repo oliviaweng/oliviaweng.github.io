@@ -5,10 +5,11 @@ head
 body
 {
 	background-color: azure;
+	font-family: verdana;
+
 }
 header
 {
-	color: forestgreen;
 	font-family: verdana;
 }
 h1
@@ -19,7 +20,6 @@ h1
 h2
 {
 	color: midnightblue;
-	font-family: verdana;
 	font-size: 30px;
 }
 h3
@@ -29,14 +29,12 @@ h3
 }
 p
 {
-	font-family: verdana;
 	color: midnightblue;
 	font-size: 20px;
 }
 a
 {
 	color: midnightblue;
-	font-family: verdana;
 }
 footer
 {
