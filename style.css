@@ -20,6 +20,10 @@ header
 	font-family: verdana;
 	color: midnightblue;
 }
+header a
+{
+	color: midnightblue;
+}
 ul
 {
 	list-style: none;
