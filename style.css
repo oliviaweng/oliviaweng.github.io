@@ -41,7 +41,7 @@ h1
 	color: midnightblue;
 	font-size: 36pt;
 }
-h1:hover
+h1 a:hover
 {
 	color:gray;
 }
