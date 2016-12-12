@@ -38,7 +38,13 @@ p
 }
 a
 {
+	text-decoration: none;
 	color: midnightblue;
+}
+a:hover
+{
+	text-decoration: underline;
+
 }
 footer
 {
