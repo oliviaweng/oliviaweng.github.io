@@ -1,3 +1,4 @@
+
 body
 {
 	margin: 60px auto; width: 70%;
@@ -38,6 +39,10 @@ h1
 {
 	color: midnightblue;
 	font-size: 36pt;
+}
+h1:hover
+{
+	color:gray;
 }
 h2
 {
