@@ -19,16 +19,16 @@ header
 {
 	font-family: verdana;
 }
-nav ul
+ul
 {
-	font-size: 16pt;
 	list-style: none;
+	font-size: 16pt;
 	font-weight: bold;
 }
-nav ul li
+li
 {
 	display: inline;
-	
+
 }
 h1
 {
