@@ -5,13 +5,30 @@ body
 	font-family: verdana;
 
 }
+a
+{
+	text-decoration: none;
+	color: midnightblue;
+}
+a:hover
+{
+	text-decoration: underline;
+
+}
 header
 {
 	font-family: verdana;
 }
-nav
+nav ul
 {
 	font-size: 16pt;
+	list-style: none;
+	font-weight: bold;
+}
+nav ul li
+{
+	display: inline;
+	
 }
 h1
 {
@@ -33,16 +50,7 @@ p
 	color: midnightblue;
 	font-size: 14pt;
 }
-a
-{
-	text-decoration: none;
-	color: midnightblue;
-}
-a:hover
-{
-	text-decoration: underline;
 
-}
 footer
 {
 	color: midnightblue;
