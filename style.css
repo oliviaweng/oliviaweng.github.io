@@ -4,6 +4,7 @@ head
 }
 body
 {
+	margin: 20px auto; width: 20%;
 	background-color: azure;
 	font-family: verdana;
 
