@@ -25,6 +25,10 @@ ul
 	font-size: 16pt;
 	font-weight: bold;
 }
+li
+{
+	color: midnightblue;
+}
 h1
 {
 	color: midnightblue;
