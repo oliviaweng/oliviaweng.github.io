@@ -29,6 +29,7 @@ header a
 header a:hover
 {
 	color: gray;
+	text-decoration: none;
 }
 ul
 {
