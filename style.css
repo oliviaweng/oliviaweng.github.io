@@ -26,6 +26,10 @@ header a
 {
 	color: midnightblue;
 }
+header a:hover
+{
+	color: gray;
+}
 ul
 {
 	list-style: none;
@@ -40,10 +44,6 @@ h1
 {
 	color: midnightblue;
 	font-size: 36pt;
-}
-h1 a:hover
-{
-	color:gray;
 }
 h2
 {
