@@ -71,13 +71,16 @@ h3
 	color: midnightblue;
 	font-size: 16pt;
 }
+.content
+{
+	margin: 20px;
+	padding: 10px;
+}
 p
 {
 	color: midnightblue;
 	font-size: 14pt;
-	margin: 10px;
-	padding: 10px;
-}
+}	
 
 footer
 {
