@@ -9,13 +9,13 @@ body
 a
 {
 	text-decoration: none;
-	color: gray;
+	color: midnightblue;
 	transition: 0.35s ease-in-out;
 }
 a:hover
 {
 	text-decoration: underline;
-	color: midnightblue;
+	color: gray;
 
 }
 header
