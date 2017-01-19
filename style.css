@@ -15,12 +15,11 @@ a
 a:hover
 {
 	text-decoration: underline;
-	color: gray;
+	color: midnightblue;
 
 }
 header
 {
-	font-family: verdana;
 	color: midnightblue;
 }
 header a
@@ -31,6 +30,12 @@ header a
 header a:hover
 {
 	color: gray;
+	text-decoration: none;
+}
+nav a
+{
+	color: midnightblue;
+	transition: 0.40s ease-in-out;
 	text-decoration: none;
 }
 ul
