@@ -73,6 +73,7 @@ h3
 }
 .content
 {
+	float: right;
 	margin: 20px;
 	padding: 10px;
 }
