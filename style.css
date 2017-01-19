@@ -3,13 +3,14 @@ body
 {
 	margin: 60px auto; width: 70%;
 	background-color: white;
-	font-family: verdana;
+	font-family: "Lato", sans-serif;
 
 }
 a
 {
 	text-decoration: none;
 	color: gray;
+	transition: 0.35s ease-in-out;
 }
 a:hover
 {
@@ -25,6 +26,7 @@ header
 header a
 {
 	color: midnightblue;
+	transition: 0.40s ease-in-out;
 }
 header a:hover
 {
@@ -64,7 +66,8 @@ p
 
 footer
 {
+	position: fixed;
 	color: midnightblue;
-	font-family: verdana;
-	font-size: 8pt;
+	font-family: "Lato", sans-serif;
+	font-size: 11pt;
 }
