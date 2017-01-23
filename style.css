@@ -1,60 +1,101 @@
-
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 body
 {
-	margin: 60px auto; width: 70%;
-	background-color: white;
-	font-family: "Lato", sans-serif;
+	/*margin: 60px auto; width: 75%;*/
+	background-color: #f2f2f2;
+	font-family: "Raleway";
 
 }
 a
 {
 	text-decoration: none;
-	color: midnightblue;
-	transition: 0.35s ease-in-out;
+	color: #666;
+	transition: 0.40s ease-in-out;
 }
 a:hover
 {
-	text-decoration: underline;
-	color: gray;
+	text-decoration: none;
+	color: #1a1a1a;
 
 }
-header
+a.name
 {
-	color: midnightblue;
-}
-header a
-{
-	color: midnightblue;
+	position: absolute;
+	top: 26%;
+	left: 20%;
+	color: #1a1a1a;
 	transition: 0.40s ease-in-out;
+	font-size: 20pt;
 }
-header a:hover
+a.name:hover
 {
-	color: gray;
+	color: #666;
 	text-decoration: none;
 }
-nav
+a.button
 {
-	float: left;
-}
-nav a
-{
-	color: midnightblue;
-	transition: 0.40s ease-in-out;
+	position: absolute;
+	top: 23%;
+	right: 20%;
+	border: .1em solid #808080;
+	display: block;
+	margin: 1em 0;
+	padding: 1em;
 	text-decoration: none;
+	color: #808080;
 }
-nav a:hover
+a.button:hover
 {
-	color: gray;
-	text-decoration: none;
+	border: .1em solid #333;
+	color: #333;
 }
-ul
+p
 {
+	color: #1a1a1a;
+	position: absolute;
+
+}
+p.intro
+{
+	font-size: 14pt;
+	top: 35%;
+	left: 15%;
+	right: 15%;
+}
+p.work
+{
+	font-size: 18pt;
+	top: 48%;
+	left: 15%;
+}
+p.contact
+{
+	font-size: 18pt;
+	top: 68%;
+	left: 15%;
+}
+ul.work
+{
+	position: absolute;
+	top: 53%;
+	left: 15%;
 	list-style: none;
-	font-size: 16pt;
+	font-size: 14pt;
+	padding: 0;
+}
+ul.contact
+{
+	position: absolute;
+	top: 73%;
+	left: 15%;
+	list-style: none;
+	font-size: 14pt;
+	padding: 0;
 }
 li
 {
-	color: midnightblue;
+	color: #1a1a1a;
+
 }
 h1
 {
@@ -77,11 +118,7 @@ h3
 	margin: 20px;
 	padding: 10px;
 }
-p
-{
-	color: midnightblue;
-	font-size: 14pt;
-}	
+	
 
 footer
 {
