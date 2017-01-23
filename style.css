@@ -21,11 +21,11 @@ a:hover
 a.name
 {
 	position: absolute;
-	top: 26%;
+	top: 25%;
 	left: 20%;
 	color: #1a1a1a;
 	transition: 0.40s ease-in-out;
-	font-size: 20pt;
+	font-size: 30pt;
 }
 a.name:hover
 {
