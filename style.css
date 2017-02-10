@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 body
 {
-	/*margin: 60px auto; width: 75%;*/
+	margin: 135px /*75px 0 75px */auto; width: 75%;
 	background-color: #f2f2f2;
 	font-family: "Raleway";
 
@@ -20,9 +20,9 @@ a:hover
 }
 a.name
 {
-	position: absolute;
-	top: 25%;
-	left: 20%;
+	/*float:left;*/
+	/*top: 25%;*/
+	left: 10px;
 	color: #1a1a1a;
 	transition: 0.40s ease-in-out;
 	font-size: 30pt;
@@ -34,11 +34,11 @@ a.name:hover
 }
 a.button
 {
-	position: absolute;
-	top: 23%;
+	float: right;
+	top: 20%;
 	right: 20%;
 	border: .1em solid #808080;
-	display: block;
+	/*display: block;*/
 	margin: 1em 0;
 	padding: 1em;
 	text-decoration: none;
@@ -52,42 +52,60 @@ a.button:hover
 p
 {
 	color: #1a1a1a;
-	position: absolute;
+	/*position: absolute;*/
 
+}
+div.intro
+{
+	float: left;
+	/*position: absolute;*/
 }
 p.intro
 {
+	/*float: left;*/
 	font-size: 14pt;
-	top: 35%;
-	left: 15%;
-	right: 15%;
+	/*top: 35%;
+	left: 15%;*/
+	/*right: 15%;*/
+}
+div.work
+{
+	clear: left;
 }
 p.work
 {
+	/*float: left;*/
 	font-size: 18pt;
-	top: 48%;
-	left: 15%;
+	/*top: 48%;
+	left: 15%;*/
+}
+div.contact
+{
+	clear: left;
 }
 p.contact
 {
+	/*float: left;*/
 	font-size: 18pt;
-	top: 68%;
-	left: 15%;
+	/*top: 68%;
+	left: 15%;*/
 }
 ul.work
 {
-	position: absolute;
-	top: 53%;
-	left: 15%;
+	/*float: left;*/
+	/*position: absolute;*/
+	/*top: 53%;
+	left: 15%;*/
 	list-style: none;
 	font-size: 14pt;
 	padding: 0;
 }
 ul.contact
 {
-	position: absolute;
-	top: 73%;
-	left: 15%;
+	/*position: absolute;*/
+	/*float: right;*/
+	/*top: 73%;
+	left: 15%;*/
 	list-style: none;
 	font-size: 14pt;
 	padding: 0;
