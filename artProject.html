@@ -17,6 +17,22 @@
         }
         h2.header {
             display: block;
+            float: left;
+        }
+        #mask {
+            float: right;
+            padding-right: 50px;
+        }
+        button {
+            margin-top: 20px;
+            line-height: 20px;
+            font-weight: bold;
+            padding: 5px 40px;
+            background: salmon;
+            border-style: solid;
+            border-color: black;
+            font-family: "Trebuchet MS";
+            font-size: 16px;
         }
         a.header {
             transition: 0.3s ease-in;
@@ -40,6 +56,7 @@
     <body>
         <div class="header">
             <h2 class="header"><a class="header" href="artProject.html">The Masking Project</a></h2>
+            <div id="mask"></div>
         </div>
         <div class="image">
             <canvas id="image">
@@ -56,6 +73,16 @@
                                         0, 0, canvas.width, canvas.height);
                 }
                 maskingPic.src = "maskingpic.JPG";
+                var button = document.createElement("button");
+                button.innerHTML = "Mask";
+                var maskDiv = document.getElementById("mask");
+                maskDiv.appendChild(button);
+                button.addEventListener("click", function() {
+                    alert("hello");
+                });
+                function mask() {
+
+                }
             </script>
         </div>
 
