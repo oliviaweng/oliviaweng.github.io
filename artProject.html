@@ -3,11 +3,61 @@
     <head>
         <title>Art Final Project</title>
         <style>
-        body {}
+        body { font-family: "Trebuchet MS"; margin: 0;}
+        div.header {
+            background-color: gray; 
+            /*display: block;*/
+            position: fixed;
+            top: 0;
+            width: 100%;
+            margin: 0 auto;
+            padding: 1px; 
+            padding-left: 20px;
+            color: white;
+        }
+        h2.header {
+            display: block;
+        }
+        a.header {
+            transition: 0.3s ease-in;
+            text-decoration: none;
+            color: white;
+        }
+        a.header:hover {
+            color: black;
+        }
+        div.fixedBar {
+            padding-top: 70px;
+        }
+        div.image {
+            margin-top: 70px;
+        }
+        canvas {
+            width: 100%;
+        }
+        </style>
     </head>
     <body>
-
-
+        <div class="header">
+            <h2 class="header"><a class="header" href="artProject.html">The Masking Project</a></h2>
+        </div>
+        <div class="image">
+            <canvas id="image">
+                Your browser does not support HTML5 canvas tag.
+            </canvas>
+            <script>
+                var canvas = document.getElementById("image");
+                var context = canvas.getContext('2d');
+                context.canvas.width = window.innerWidth;
+                context.canvas.height = window.innerHeight;
+                var maskingPic = new Image();
+                maskingPic.onload = function() {
+                    context.drawImage(maskingPic, 0, 0, maskingPic.width, maskingPic.height, 
+                                        0, 0, canvas.width, canvas.height);
+                }
+                maskingPic.src = "maskingpic.JPG";
+            </script>
+        </div>
 
     </body>
 </html>
