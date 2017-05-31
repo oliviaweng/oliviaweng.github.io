@@ -3,44 +3,53 @@
     <head>
         <title>Art Final Project</title>
         <style>
-        body { font-family: "Trebuchet MS"; margin: 0;}
+        body { 
+            font-family: "Trebuchet MS";
+            margin: 0;
+        }
         div.header {
             background-color: gray; 
-            /*display: block;*/
             position: fixed;
             top: 0;
             width: 100%;
             margin: 0 auto;
             padding: 1px; 
             padding-left: 20px;
-            color: white;
         }
         h2.header {
             display: block;
             float: left;
         }
-        #mask {
+        #reset {
             float: right;
             padding-right: 50px;
+        }
+        #mask {
+            float: right;
+            padding-right: 5px;
         }
         button {
             margin-top: 20px;
             line-height: 20px;
             font-weight: bold;
             padding: 5px 40px;
-            background: salmon;
+            background: #fdfd96;
             border-style: solid;
             border-color: black;
             font-family: "Trebuchet MS";
             font-size: 16px;
+            transition: 0.3s ease-in;
+        }
+        button:hover {
+            background: white;
         }
         a.header {
             transition: 0.3s ease-in;
             text-decoration: none;
-            color: white;
+            color: #fdfd96;
         }
         a.header:hover {
-            color: black;
+            color: white;
         }
         div.fixedBar {
             padding-top: 70px;
@@ -56,6 +65,7 @@
     <body>
         <div class="header">
             <h2 class="header"><a class="header" href="artProject.html">The Masking Project</a></h2>
+            <div id="reset"></div>
             <div id="mask"></div>
         </div>
         <div class="image">
@@ -73,16 +83,26 @@
                                         0, 0, canvas.width, canvas.height);
                 }
                 maskingPic.src = "maskingpic.JPG";
-                var button = document.createElement("button");
-                button.innerHTML = "Mask";
+                var maskButton = document.createElement("button");
+                var resetButton = document.createElement("button");
+                maskButton.innerHTML = "Mask";
+                resetButton.innerHTML = "Reset";
                 var maskDiv = document.getElementById("mask");
-                maskDiv.appendChild(button);
-                button.addEventListener("click", function() {
-                    alert("hello");
+                var resetDiv = document.getElementById("reset");
+                maskDiv.appendChild(maskButton);
+                resetDiv.appendChild(resetButton);
+                maskButton.addEventListener("click", function() {
+                    context.fillStyle = "#black";
+                    context.beginPath();
+                    context.moveTo(Math.random() * window.innerWidth, Math.random() * window.innerHeight);
+                    context.lineTo(Math.random() * window.innerWidth, Math.random() * window.innerHeight);
+                    context.lineTo(Math.random() * window.innerWidth, Math.random() * window.innerHeight);
+                    context.fill();
                 });
-                function mask() {
-
-                }
+                resetButton.addEventListener("click", function() {
+                    context.drawImage(maskingPic, 0, 0, maskingPic.width, maskingPic.height, 
+                                        0, 0, canvas.width, canvas.height);
+                });
             </script>
         </div>
 
