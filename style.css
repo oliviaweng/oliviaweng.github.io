@@ -1,111 +1,122 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 body
 {
-	margin: 135px /*75px 0 75px */auto; width: 75%;
+	margin: 100px auto; width: 75%;
 	background-color: #f2f2f2;
-	font-family: "Raleway";
+	font-family: "Helvetica";
+	letter-spacing: 0.5px;
 
+}
+.cv
+{
+	margin: 1% 0;
+	font-size: 14pt;
+	font-family: Raleway;
+}
+.clearfix
+{
+	clear: both;
+}
+.ib1
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 35%;
+	/*padding: 10%;*/
+}
+.ib2
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 60%;
+	margin: 0 2%;
+}
+img.profile
+{
+	/*padding: 2% 0;*/
+	width: 100%;
+	height: auto;
 }
 a
 {
-	text-decoration: none;
-	color: #808080;
-	transition: 0.40s ease-in-out;
+	/*text-decoration: none;*/
+	color: #006bdd;
+	transition: 0.3s ease-in-out;
 }
 a:hover
 {
-	text-decoration: none;
-	color: #1a1a1a;
+	/*text-decoration: none;*/
+	color: #808080;
 
 }
 a.name
 {
 	/*float:left;*/
 	/*top: 25%;*/
-	left: 10px;
-	color: #1a1a1a;
+	font-family: Raleway;
+	font-weight: bold;
+	color: #000;
 	transition: 0.40s ease-in-out;
 	font-size: 30pt;
+	text-decoration: none;
 }
 a.name:hover
 {
-	color: #666;
-	text-decoration: none;
+	color: #006bdd;
+	/*text-decoration: none;*/
 }
-a.button
+/*a.button
 {
 	float: right;
-	top: 20%;
-	right: 20%;
-	border: .1em solid #808080;
-	/*display: block;*/
+	top: 10%;
+	right: 10%;
+	border: .1em solid #006bdd;
 	margin: 1em 0;
 	padding: 1em;
 	text-decoration: none;
-	color: #808080;
 }
 a.button:hover
 {
-	border: .1em solid #333;
-	color: #333;
+	border: .1em solid #808080;
+	color: #808080;
 }
+*/
 p
 {
 	color: #1a1a1a;
-	/*position: absolute;*/
+	padding: 0;
 
-}
-div.intro
-{
-	float: left;
-	/*position: absolute;*/
 }
 p.intro
 {
-	/*float: left;*/
 	font-size: 14pt;
-	/*top: 35%;
-	left: 15%;*/
-	/*right: 15%;*/
-}
-div.work
-{
-	clear: left;
+	padding: 0;
+	margin: 0;
 }
 p.work
 {
-	/*float: left;*/
 	font-size: 18pt;
+	color: #006bdd; /* blue */
 	/*top: 48%;
 	left: 15%;*/
-}
-div.contact
-{
-	clear: left;
 }
 p.contact
 {
 	/*float: left;*/
 	font-size: 18pt;
+	color: #006bdd; /* blue */
 	/*top: 68%;
 	left: 15%;*/
 }
 ul.work
 {
-	/*float: left;*/
-	/*position: absolute;*/
-	/*top: 53%;
-	left: 15%;*/
-	list-style: none;
+	list-style: circle;
+	list-style-position: inside;
 	font-size: 14pt;
 	padding: 0;
 }
 ul.contact
 {
-	/*position: absolute;*/
-	/*float: right;*/
-	/*top: 73%;
-	left: 15%;*/
 	list-style: none;
 	font-size: 14pt;
 	padding: 0;
