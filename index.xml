@@ -37,7 +37,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://oliviaweng.github.io/projects/</guid>
-      <description>Ongoing Verifying in hardware implementations of cache side-channel mitigation techniques A great deal of cache side-channel mitigation techniques and designs have been implemented, but comparatively little work has gone into verifying that the sercurity properties of these designs hold true in their implementations. My research thus focuses on creating a set of experiments when given an implementation of a protected cache design with an identified security bug will isolate which part of the design is causing that bug.</description>
+      <description>Ongoing Isolating hardware bugs in implementations of cache side-channel mitigation techniques A great deal of cache side-channel mitigation techniques and designs have been implemented, but comparatively little work has gone into verifying that the sercurity properties of these designs hold true in their implementations. My research thus focuses on creating a set of experiments when given an implementation of a protected cache design with an identified security bug will isolate which part of the design is causing that bug.</description>
     </item>
     
   </channel>
