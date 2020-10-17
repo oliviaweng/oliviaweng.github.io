@@ -26,9 +26,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://oliviaweng.github.io/about/</guid>
-      <description>Hello! I&#39;m Olivia. I&#39;m a first-year PhD student working with Professor Ryan Kastner at UC San Diego. My research centers on computer architecture, focusing on end-of-Moore&#39;s-Law computing vis-à-vis hardware acceleration.
-  My interests include but are not limited to:
- Computer architecture Hardware accelerators Systems for machine learning/Machine learning for systems Heterogeneous computing Hardware security Cache side-channel attacks Shakespeare Theater Movies Movie adaptations of books Novels Classical music Operas Taking walks  Talk to me about any of the above, and we will make good conversation!</description>
+      <description>Hello! I&#39;m Olivia. I&#39;m a first-year PhD student in Computer Science working with Professor Ryan Kastner at UC San Diego. My research centers on computer architecture, focusing on end-of-Moore&#39;s-Law computing vis-à-vis hardware acceleration.
+Before coming to UCSD, I received my BS in Computer Science at the University of Chicago, where I worked with Professor Yanjing Li on mitigating cache side-channel attacks while maintaining cache performance and Professor Andrew A. Chien on integrating SSD latency predictors into cloud systems via hardware accelerators.</description>
     </item>
     
     <item>
@@ -37,8 +36,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://oliviaweng.github.io/projects/</guid>
-      <description>Evaluating Achievable Latency and Cost: SSD Latency Predictors Workshop paper
-Abstract. Cutting tail latencies at the millisecond level in internet services for good response times in data-parallel applications is possible by integrating MittOS, an OS/data center interface. Typically, MittOS analyzes white-box information of the internals of devices such as SSD&#39;s and decides if a given server can &amp;ldquo;fast reject&amp;rdquo; a service request. But commercial SSD&#39;s have a black-box design, so MittOS researchers have developed machine learning models to determine if requests to commercial SSD’s can be rejected or not.</description>
+      <description>Compressing ResNet33 for Higher Throughput Residual neural networks like ResNet33 are characterized by their skip connections, wherein layers reuse activations from previous layers, in order to circumvent the vanishing gradient problem that occurs during training. After training, these skip connections must remain in the network during inference&amp;mdash;otherwise, its accuracy disintegrates. But skip connections introduce a bottleneck during inference because the layers whose activations are reused in future layers must wait for this reuse to occur before accepting new input and continue processing.</description>
     </item>
     
   </channel>
