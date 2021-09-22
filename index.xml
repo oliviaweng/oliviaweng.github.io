@@ -36,7 +36,7 @@ Before coming to UCSD, I received my BS in Computer Science at the University of
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://oliviaweng.github.io/projects/</guid>
-      <description>Hardware-efficient Residual Networks for FPGAs Residual neural networks (ResNets) are characterized by their skip connections, wherein layers reuse activations from previous layers, in order to circumvent the vanishing gradient problem that occurs during training. After training, these skip connections must remain in the network during inference&amp;mdash;otherwise, its accuracy disintegrates. But skip connections introduce a bottleneck during inference because the layers whose activations are reused in future layers must wait for this reuse to occur before accepting new input and continue processing.</description>
+      <description>ResNet Reshaper: Reshaping Residual Networks for Resource-Efficient Inference on FPGAs Residual networks (ResNets) employ skip connections in their networks&amp;mdash;reusing activations from previous layers&amp;mdash;to improve training convergence, but these skip connections create challenges for hardware implementations of ResNets. In particular, they are problematic for inference accelerators on resource-limited platforms because they introduce a bottleneck during inference: the layers whose activations are reused in future layers must wait for this reuse to occur before accepting new input and continuing to compute.</description>
     </item>
     
   </channel>
