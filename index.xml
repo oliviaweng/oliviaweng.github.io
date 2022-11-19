@@ -36,7 +36,8 @@ Before coming to UCSD, I received my BS in Computer Science at the University of
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://oliviaweng.github.io/projects/</guid>
-      <description>Tailor: Altering Skip Connections for Resource-Efficient Inference Deep neural networks employ skip connections&amp;mdash;identity functions that combine the outputs of different layers&amp;mdash;to improve training convergence; however, these skip connections are costly to implement in hardware because they consume valuable resources. We argue that, for certain classification tasks, a network&#39;s skip connections are needed for the network to learn but not necessary for inference after convergence. We thus introduce Tailor, a retraining method that alters skip connections in a fully-trained network to mitigate their hardware cost.</description>
+      <description>FKeras: A Fault Tolerant Library for Keras Many scientific applications require neural networks (NNs) to operate correctly in safety-critical or high radiation environments, including automated driving, space, and high energy physics. For example, physicists at the Large Hadron Collider want to deploy an autoencoder to filter their experimental data at a high data rate (~40TB/s) in a high radiation environment. The autoencoder hardware must be both efficient and robust.
+However, efficiency and robustness are often in conflict with each other.</description>
     </item>
     
   </channel>
