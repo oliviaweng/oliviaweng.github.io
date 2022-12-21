@@ -36,7 +36,7 @@ Before coming to UCSD, I received my BS in Computer Science at the University of
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://oliviaweng.github.io/projects/</guid>
-      <description>FKeras: A Fault Tolerant Library for Keras Many scientific applications require neural networks (NNs) to operate correctly in safety-critical or high radiation environments, including automated driving, space, and high energy physics. For example, physicists at the Large Hadron Collider want to deploy an autoencoder to filter their experimental data at a high data rate (~40TB/s) in a high radiation environment. Thus, the autoencoder hardware must be both efficient and robust.</description>
+      <description>FKeras: A Fault Tolerant Library for Understanding NN Resilience Many scientific applications require neural networks (NNs) to operate correctly in safety-critical or high radiation environments, including automated driving, space, and high energy physics. For example, physicists at the Large Hadron Collider want to deploy an autoencoder to filter their experimental data at a high data rate (~40TB/s) in a high radiation environment. Thus, the autoencoder hardware must be both efficient and robust.</description>
     </item>
     
   </channel>
