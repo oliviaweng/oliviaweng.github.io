@@ -39,12 +39,12 @@ To address these opposing demands, we must understand the fault tolerance inhere
 To identify where and why this inherent redundancy exists in a NN, we present <a href="https://github.com/KastnerRG/fkeras">FKeras</a>, an open-source tool that measures the fault tolerance of NNs at the bit level, using a variety of metrics (e.g., loss landscapes).
 Once we identify which parts of the NN are insensitive to radiation faults, we need not protect them, reducing the resources spent on robust hardware.</p>
 <h2 id="tailor-altering-skip-connections-for-resourceefficient-inference">Tailor: Altering Skip Connections for Resource-Efficient Inference</h2>
-<p><a href="https://arxiv.org/abs/2102.01351">SLOHA'21</a>, <a href="/projects">FPGA'23</a></p>
+<p><a href="https://arxiv.org/abs/2102.01351">SLOHA'21</a>, <a href="https://dl.acm.org/doi/10.1145/3543622.3573172">FPGA'23</a></p>
 <p>Deep neural networks employ skip connections&mdash;identity functions that combine the outputs of different layers&mdash;to improve training convergence; however, these skip connections are costly to implement in hardware because they consume valuable resources.
 For certain classification tasks though, a network's skip connections are needed for the network to learn but not necessary for inference after convergence.
 We introduce <em>Tailor</em>, a fine-tuning/retraining method that alters skip connections in a fully-trained network to reduce their hardware cost.</p>
 <h2 id="maximizing-channel-capacity-in-timetodigital-converters">Maximizing Channel Capacity in Time-to-Digital Converters</h2>
-<p><a href="https://ieeexplore.ieee.org/abstract/document/9444070">FCCM'21</a>, <a href="/projects">FPGA'23</a></p>
+<p><a href="https://ieeexplore.ieee.org/abstract/document/9444070">FCCM'21</a>, <a href="https://dl.acm.org/doi/10.1145/3543622.3573193">FPGA'23</a></p>
 <p>Side-channel leakage poses a major security threat in multi-tenant environments.
 In FPGA systems, one tenant can instantiate a voltage fluctuation sensor that measures minute changes in the power distribution network and infer information about co-tenant computation and data.
 In this project, we present the <em>Tunable Dual-Polarity Time-to-Digital Converter</em>&mdash;a voltage fluctuation sensor with three dynamically tunable parameters: the sample duration, sample clock phase, and sample clock frequency.
