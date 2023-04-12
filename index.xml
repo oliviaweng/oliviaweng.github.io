@@ -6,18 +6,14 @@
     <description>Recent content on Olivia Weng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Nov 2019 19:19:44 -0500</lastBuildDate>
-    
-	<atom:link href="http://oliviaweng.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 29 Nov 2019 19:19:44 -0500</lastBuildDate><atom:link href="http://oliviaweng.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>On taking walks after lunch</title>
       <link>http://oliviaweng.github.io/blog/lunch-walks/</link>
       <pubDate>Fri, 29 Nov 2019 16:57:20 -0500</pubDate>
       
       <guid>http://oliviaweng.github.io/blog/lunch-walks/</guid>
-      <description>Dear reader, Taking walks after lunch, mostly alone but occasionally with friends, has been one of the best decisions I&#39;ve made in college. I used to approach college with a keep-your-foot-on-the-gas-for-the-love-of-all-that-is-good mentality. Not working was bad and a waste of time. Then the unsustainability of it all hit me around my third year. It was only halfway through the year, and I woke up every day feeling burned out, worn out.</description>
+      <description>Dear reader, Taking walks after lunch, mostly alone but occasionally with friends, has been one of the best decisions I&amp;rsquo;ve made in college. I used to approach college with a keep-your-foot-on-the-gas-for-the-love-of-all-that-is-good mentality. Not working was bad and a waste of time. Then the unsustainability of it all hit me around my third year. It was only halfway through the year, and I woke up every day feeling burned out, worn out.</description>
     </item>
     
     <item>
@@ -26,7 +22,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://oliviaweng.github.io/about/</guid>
-      <description>Hello! I&#39;m Olivia. I&#39;m a third-year PhD student in Computer Science working with Professor Ryan Kastner at UC San Diego. My research focuses on using hardware/software co-design to create efficient, fault-tolerant computer architectures for machine learning. My work is supported by an NSF Graduate Research Fellowship.
+      <description>Hello! I&amp;rsquo;m Olivia. I&amp;rsquo;m a third-year PhD student in Computer Science working with Professor Ryan Kastner at UC San Diego. My research focuses on using hardware/software co-design to create efficient, fault-tolerant computer architectures for machine learning. My work is supported by an NSF Graduate Research Fellowship.
 Before coming to UCSD, I received my BS in Computer Science at the University of Chicago, where I worked with Professor Yanjing Li on mitigating cache side-channel attacks while maintaining cache performance and Professor Andrew A.</description>
     </item>
     
@@ -36,7 +32,8 @@ Before coming to UCSD, I received my BS in Computer Science at the University of
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://oliviaweng.github.io/projects/</guid>
-      <description>FKeras: A Fault Tolerant Library for Understanding NN Resilience Many scientific applications require neural networks (NNs) to operate correctly in safety-critical or high radiation environments, including automated driving, space, and high energy physics. For example, physicists at the Large Hadron Collider want to deploy an autoencoder to filter their experimental data at a high data rate (~40TB/s) in a high radiation environment. Thus, the autoencoder hardware must be both efficient and robust.</description>
+      <description>FKeras: A Fault Tolerant Library for Understanding NN Resilience Workshop preprint
+Many scientific applications require neural networks (NNs) to operate correctly in safety-critical or high radiation environments, including automated driving, space, and high energy physics. For example, physicists at the Large Hadron Collider want to deploy an autoencoder to filter their experimental data at a high data rate (~40TB/s) in a high radiation environment. Thus, the autoencoder hardware must be both efficient and robust.</description>
     </item>
     
   </channel>
