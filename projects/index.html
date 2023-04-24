@@ -39,12 +39,12 @@ Thus, the autoencoder hardware must be both efficient and robust.</p>
 To address these opposing demands, we must understand the fault tolerance inherent in NNs.
 To identify where and why this inherent redundancy exists in a NN, we present <a href="https://github.com/KastnerRG/fkeras">FKeras</a>, an open-source tool that measures the fault tolerance of NNs at the bit level, using various metrics such as the Hessian.
 Once we identify which parts of the NN are insensitive to radiation faults, we need not protect them, reducing the resources spent on robust hardware.</p>
-<h2 id="tailor-altering-skip-connections-for-resource-efficient-inference">Tailor: Altering Skip Connections for Resource-Efficient Inference</h2>
+<h2 id="tailor-altering-skip-connections-for-resourceefficient-inference">Tailor: Altering Skip Connections for Resource-Efficient Inference</h2>
 <p><a href="https://arxiv.org/abs/2102.01351">SLOHA'21</a>, <a href="https://dl.acm.org/doi/10.1145/3543622.3573172">FPGA'23</a></p>
 <p>Deep neural networks employ skip connections&mdash;identity functions that combine the outputs of different layers&mdash;to improve training convergence; however, these skip connections are costly to implement in hardware because they consume valuable resources.
-For certain classification tasks though, a network&rsquo;s skip connections are needed for the network to learn but not necessary for inference after convergence.
+For certain classification tasks though, a network's skip connections are needed for the network to learn but not necessary for inference after convergence.
 We introduce <em>Tailor</em>, a fine-tuning/retraining method that alters skip connections in a fully-trained network to reduce their hardware cost.</p>
-<h2 id="maximizing-channel-capacity-in-time-to-digital-converters">Maximizing Channel Capacity in Time-to-Digital Converters</h2>
+<h2 id="maximizing-channel-capacity-in-timetodigital-converters">Maximizing Channel Capacity in Time-to-Digital Converters</h2>
 <p><a href="https://ieeexplore.ieee.org/abstract/document/9444070">FCCM'21</a>, <a href="https://dl.acm.org/doi/10.1145/3543622.3573193">FPGA'23</a></p>
 <p>Side-channel leakage poses a major security threat in multi-tenant environments.
 In FPGA systems, one tenant can instantiate a voltage fluctuation sensor that measures minute changes in the power distribution network and infer information about co-tenant computation and data.
@@ -53,9 +53,9 @@ The sensor captures both rising and falling transition polarities which provides
 <h2 id="evaluating-achievable-latency-and-cost-ssd-latency-predictors">Evaluating Achievable Latency and Cost: SSD Latency Predictors</h2>
 <p><a href="/papers/accml_2020.pdf">AccML'20</a></p>
 <p>Cutting tail latencies at the millisecond level in internet services to achieve good response times in data-parallel applications is possible by integrating MittOS, an OS/data center interface.
-Typically, MittOS analyzes white-box information of the internals of devices such as SSD&rsquo;s and decides if a given server can &ldquo;fast reject&rdquo; a service request.
-But commercial SSD&rsquo;s have a black-box design, so MittOS researchers have developed machine learning models to determine if requests to commercial SSD&rsquo;s can be rejected or not.
-When run on CPUs, however, these models cannot predict in the time it takes an SSD to fully process a request, defeating MittOS&rsquo;s fast-rejecting abilities.
+Typically, MittOS analyzes white-box information of the internals of devices such as SSD's and decides if a given server can &ldquo;fast reject&rdquo; a service request.
+But commercial SSD's have a black-box design, so MittOS researchers have developed machine learning models to determine if requests to commercial SSD's can be rejected or not.
+When run on CPUs, however, these models cannot predict in the time it takes an SSD to fully process a request, defeating MittOS's fast-rejecting abilities.
 We demonstrate that ASICs such as the Efficient Inference Engine (EIE) accelerate the prediction times of these MittOS models well within the time it takes an SSD to complete a request at minimal cost, cutting SSD tail latencies.
 EIE achieves 2.01 us inference latency while incurring minimal area costs (20.4 mm^2) and power costs (0.29 W).
 We show that integrating machine learning into the critical path of operating systems becomes cost-efficient and within reason.</p>
