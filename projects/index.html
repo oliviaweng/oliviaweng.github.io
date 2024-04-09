@@ -39,8 +39,13 @@ Thus, the autoencoder hardware must be both efficient and robust.</p>
 To address these opposing demands, we must understand the fault tolerance inherent in NNs.
 To identify where and why this inherent redundancy exists in a NN, we present <a href="https://github.com/KastnerRG/fkeras">FKeras</a>, an open-source tool that measures the fault tolerance of NNs at the bit level, using various metrics such as the gradient and the Hessian.
 Once we identify which parts of the NN are insensitive to radiation faults, we need not protect them, reducing the resources spent on robust hardware.</p>
+<h2 id="ensemblelut-evaluating-ensembles-of-logicnets">EnsembleLUT: Evaluating Ensembles of LogicNets</h2>
+<p>Applications including high-energy physics and cybersecurity require extremely high throughput and low latency neural network inference on FPGAs.
+<a href="https://github.com/Xilinx/logicnets">LogicNets</a> addresses these constraints by mapping neurons directly to LUTs, achieving inference latency on the order of nanoseconds.
+However, it is difficult to implement larger, more performant neural networks as LogicNets because LUT usage increases exponentially with respect to neuron fan-in (i.e., synapse bitwidth X number of synapses).
+Our work <em>EnsembleLUT</em> creates ensembles of smaller LogicNets such that we scale up LogicNets linearly with respect to the number of models to achieve higher accuracy within the resource constraints of an FPGA.</p>
 <h2 id="tailor-altering-skip-connections-for-resource-efficient-inference">Tailor: Altering Skip Connections for Resource-Efficient Inference</h2>
-<p><a href="https://arxiv.org/abs/2102.01351">SLOHA'21</a>, <a href="https://dl.acm.org/doi/10.1145/3543622.3573172">FPGA'23</a>, <a href="https://dl.acm.org/doi/pdf/10.1145/3624990">TRETS</a></p>
+<p><a href="https://arxiv.org/abs/2102.01351">SLOHA'21</a>, <a href="https://dl.acm.org/doi/10.1145/3543622.3573172">FPGA'23</a>, <a href="https://dl.acm.org/doi/pdf/10.1145/3624990">TRETS'24</a></p>
 <p>Deep neural networks employ skip connections&mdash;identity functions that combine the outputs of different layers&mdash;to improve training convergence; however, these skip connections are costly to implement in hardware because they consume valuable resources.
 For certain classification tasks though, a network&rsquo;s skip connections are needed for the network to learn but not necessary for inference after convergence.
 We introduce <em>Tailor</em>, a fine-tuning/retraining method that alters skip connections in a fully-trained network to reduce their hardware cost.</p>
