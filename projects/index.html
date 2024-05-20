@@ -30,14 +30,14 @@
 
 
 
-<h2 id="fkeras-a-fault-tolerant-library-for-understanding-nn-resilience">FKeras: A Fault Tolerant Library for Understanding NN Resilience</h2>
-<p><a href="/projects">JATS (To appear)</a></p>
+<h2 id="fkeras-a-sensitivity-analysis-tool-for-edge-neural-networks">FKeras: A Sensitivity Analysis Tool for Edge Neural Networks</h2>
+<p><a href="https://dl.acm.org/doi/pdf/10.1145/3665334">JATS (To appear)</a></p>
 <p>Many scientific applications require neural networks (NNs) to operate correctly in safety-critical or high radiation environments, including automated driving, space, and high energy physics.
 For example, physicists at the Large Hadron Collider want to deploy an autoencoder to filter their experimental data at a high data rate (~40TB/s) in a high radiation environment.
 Thus, the autoencoder hardware must be both efficient and robust.</p>
 <p>However, efficiency and robustness are often in conflict with each other.
 To address these opposing demands, we must understand the fault tolerance inherent in NNs.
-To identify where and why this inherent redundancy exists in a NN, we present <a href="https://github.com/KastnerRG/fkeras">FKeras</a>, an open-source tool that measures the fault tolerance of NNs at the bit level, using various metrics such as the gradient and the Hessian.
+To identify where and why this inherent redundancy exists in a NN, we present <a href="https://github.com/KastnerRG/fkeras">FKeras</a>, a fault tolerance library for Keras, which is an open-source tool that measures the fault tolerance of NNs at the bit level, using various metrics such as the gradient and the Hessian.
 Once we identify which parts of the NN are insensitive to radiation faults, we need not protect them, reducing the resources spent on robust hardware.</p>
 <h2 id="ensemblelut-evaluating-ensembles-of-logicnets">EnsembleLUT: Evaluating Ensembles of LogicNets</h2>
 <p>Applications including high-energy physics and cybersecurity require extremely high throughput and low latency neural network inference on FPGAs.
