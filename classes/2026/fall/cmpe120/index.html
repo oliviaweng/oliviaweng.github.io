@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta charset="utf-8">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <title>CMPE 120</title>
+
+    
+    
+    <link rel="stylesheet" href="/css/style.css?v=499716d62b695b1525a7d3d1227b4a16bf71d8c8d559c0ff82668654bd16521f">
+  </head>
+<body>
+
+<div class="nav">
+  <a href="/about">About</a>
+  <a href="/projects">Projects</a>
+  <a href="/teaching">Teaching</a>
+  <a href="/">Home</a>
+</div>
+
+
+<h1>CMPE 120</h1>
+
+
+
+
+
+
+
+<h2 id="computer-organization-and-architecture">Computer Organization and Architecture</h2>
+<p>Welcome to CMPE 120!
+We’re so happy to have you in this course.
+Many of you have been writing programs for a couple of years now, and they have always run on computer hardware.
+The cool part was that you were able to learn how to program without needing to think much about how the hardware executed your code.
+But, at some point in your software engineering career, you will be confronted with the fact that some hardware is running your code&mdash;and <em>something</em> is going wrong with the way they are interacting.
+Not only does it impact your program, but also that of your colleagues!
+Oh no!
+This course will help demystify why this is happening and how to fix it, turning you into an even stronger software engineer.</p>
+<p>Please read the <a href="https://sjsu.campusconcourse.com/view_syllabus?course_id=94553&amp;public_mode=1">official course syllabus</a> with all the grading information.</p>
+<h2 id="schedule">Schedule</h2>
+<p>The current schedule is tentative and subject to change depending on how the class progresses.
+Slides and assignments will be posted in the schedule below.
+The classes listed as <em>(async)</em> will not be held in-person.
+They will instead be posted as recorded lectures on Canvas.</p>
+<p>For the suggested reading, we will be using these textbooks:</p>
+<ul>
+<li><a href="https://diveintosystems.org/book/index.html">Dive into Systems</a> (DIS)</li>
+<li><a href="https://ebookcentral.proquest.com/lib/sjsu/detail.action?docID=7262682&amp;pq-origsite=primo">Patterson &amp; Hennesy&rsquo;s Computer Organization and Design RISC-V Edition : The Hardware Software Interface</a> (P&amp;H) (Note: requires SJSU login / network access)</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Week</th>
+<th>Date</th>
+<th>Lecture Topic</th>
+<th>Homework</th>
+<th>Suggested Reading</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>Thu, Aug 20</td>
+<td>Introduction</td>
+<td><a href="/assignments/2026/fall/cmpe120/hw0.pdf">HW0 out</a></td>
+<td></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Tue, Aug 25</td>
+<td>Intro to C &amp; binary representation</td>
+<td></td>
+<td><a href="https://diveintosystems.org/book/C1-C_intro/getting_started.html">DIS 1.1 - 1.4</a></td>
+</tr>
+<tr>
+<td></td>
+<td>Thu, Aug 27</td>
+<td>More binary representation &amp; overflow</td>
+<td>HW0 due</td>
+<td><a href="https://diveintosystems.org/book/C4-Binary/bases.html">DIS 4.1 - 4.5</a></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Tue, Sep 1</td>
+<td>Binary wrap-up &amp; strings</td>
+<td></td>
+<td><a href="https://diveintosystems.org/book/C1-C_intro/arrays_strings.html">DIS 1.5</a></td>
+</tr>
+<tr>
+<td></td>
+<td>Thu, Sep 3</td>
+<td>Unicode &amp; bitwise operators</td>
+<td>HW1 out</td>
+<td><a href="https://diveintosystems.org/book/C4-Binary/bitwise.html">DIS 4.6</a></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Tue, Sep 8</td>
+<td>Intro to memory and pointers <em>(async)</em></td>
+<td></td>
+<td><a href="https://diveintosystems.org/book/C2-C_depth/scope_memory.html">DIS 2.1 - 2.3</a></td>
+</tr>
+<tr>
+<td></td>
+<td>Thu, Sep 10</td>
+<td>Pointers &amp; arrays, dynamic memory allocation <em>(async)</em></td>
+<td></td>
+<td><a href="https://diveintosystems.org/book/C2-C_depth/dynamic_memory.html">DIS 2.4 - 2.5</a></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Tue, Sep 15</td>
+<td>Structs, dynamic data structures (linked lists)</td>
+<td></td>
+<td><a href="https://diveintosystems.org/book/C1-C_intro/structs.html">DIS 1.6</a>, <a href="https://diveintosystems.org/book/C2-C_depth/structs.html">DIS 2.7</a></td>
+</tr>
+<tr>
+<td></td>
+<td>Thu, Sep 17</td>
+<td>Intro to ISA &amp; assembly</td>
+<td>HW1 due; HW2 out</td>
+<td><a href="https://ebookcentral.proquest.com/lib/sjsu/reader.action?docID=7262682&amp;ppg=28&amp;c=RVBVQg">P&amp;H 1.1 - 1.3</a>, <a href="https://ebookcentral.proquest.com/lib/sjsu/reader.action?docID=7262682&amp;ppg=99&amp;c=RVBVQg">P &amp; H 2.1 - 2.3</a></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Tue, Sep 22</td>
+<td>Conditional control &amp; gdb; <strong>HW1 quiz</strong></td>
+<td></td>
+<td><a href="https://ebookcentral.proquest.com/lib/sjsu/reader.action?docID=7262682&amp;ppg=124&amp;c=RVBVQg">P&amp;H 2.7</a>, <a href="https://diveintosystems.org/book/C3-C_debug/gdb.html">DIS 3.1 - 3.2</a></td>
+</tr>
+<tr>
+<td></td>
+<td>Thu, Sep 24</td>
+<td>More gdb &amp; procedures</td>
+<td></td>
+<td><a href="https://ebookcentral.proquest.com/lib/sjsu/reader.action?docID=7262682&amp;ppg=129&amp;c=RVBVQg">P&amp;H 2.8</a></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Tue, Sep 29</td>
+<td>The performance equation and Amdahl&rsquo;s Law</td>
+<td></td>
+<td><a href="https://ebookcentral.proquest.com/lib/sjsu/reader.action?docID=7262682&amp;ppg=55&amp;c=RVBVQg">P&amp;H 1.6 - 1.7</a> <a href="https://ebookcentral.proquest.com/lib/sjsu/reader.action?docID=7262682&amp;ppg=73&amp;c=RVBVQg">P&amp;H 1.10</a></td>
+</tr>
+<tr>
+<td></td>
+<td>Thu, Oct 1</td>
+<td>The single cycle processor</td>
+<td>HW2 due; HW3 out</td>
+<td><a href="https://ebookcentral.proquest.com/lib/sjsu/reader.action?docID=7262682&amp;ppg=281&amp;c=RVBVQg">P&amp;H 4.1, 4.3 - 4.4</a></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Tue, Oct 6</td>
+<td>Pipelining &amp; instruction level parallelism <strong>HW2 quiz</strong></td>
+<td></td>
+<td><a href="https://ebookcentral.proquest.com/lib/sjsu/reader.action?docID=7262682&amp;ppg=301&amp;c=RVBVQg">P&amp;H 4.5 - 4.6</a></td>
+</tr>
+<tr>
+<td></td>
+<td>Thu, Oct 8</td>
+<td>Pipelining &amp; instruction level parallelism</td>
+<td></td>
+<td><a href="https://ebookcentral.proquest.com/lib/sjsu/reader.action?docID=7262682&amp;ppg=321&amp;c=RVBVQg">P&amp;H 4.7</a></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Tue, Oct 13</td>
+<td><strong>MIDTERM EXAM</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Thu, Oct 15</td>
+<td>Speculation</td>
+<td>HW3 due; HW4 out</td>
+<td><a href="https://ebookcentral.proquest.com/lib/sjsu/reader.action?docID=7262682&amp;ppg=329&amp;c=RVBVQg">P&amp;H 4.8</a></td>
+</tr>
+<tr>
+<td>9</td>
+<td>Tue, Oct 20</td>
+<td>Speculation <strong>HW3 quiz</strong></td>
+<td></td>
+<td><a href="https://ebookcentral.proquest.com/lib/sjsu/reader.action?docID=7262682&amp;ppg=340&amp;c=RVBVQg">P&amp;H 4.10</a></td>
+</tr>
+<tr>
+<td></td>
+<td>Thu, Oct 22</td>
+<td>Memory hierarchy &amp; caches</td>
+<td></td>
+<td><a href="https://ebookcentral.proquest.com/lib/sjsu/reader.action?docID=7262682&amp;ppg=390&amp;c=RVBVQg">P&amp;H 5.1 - 5.3</a></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Tue, Oct 27</td>
+<td>Caches locality and design</td>
+<td></td>
+<td><a href="https://ebookcentral.proquest.com/lib/sjsu/reader.action?docID=7262682&amp;ppg=410&amp;c=RVBVQg">P&amp;H 5.4</a></td>
+</tr>
+<tr>
+<td></td>
+<td>Thu, Oct 29</td>
+<td>Caches and your programs</td>
+<td></td>
+<td><a href="https://ebookcentral.proquest.com/lib/sjsu/reader.action?docID=7262682&amp;ppg=410&amp;c=RVBVQg">P&amp;H 5.4</a></td>
+</tr>
+<tr>
+<td>11</td>
+<td>Tue, Nov 3</td>
+<td>Virtual memory &amp; paging</td>
+<td></td>
+<td><a href="https://ebookcentral.proquest.com/lib/sjsu/reader.action?docID=7262682&amp;ppg=429&amp;c=RVBVQg">P&amp;H 5.7</a></td>
+</tr>
+<tr>
+<td></td>
+<td>Thu, Nov 5</td>
+<td>Virtual memory &amp; paging</td>
+<td>HW4 due; HW5 out</td>
+<td><a href="https://ebookcentral.proquest.com/lib/sjsu/reader.action?docID=7262682&amp;ppg=429&amp;c=RVBVQg">P&amp;H 5.7</a></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Tue, Nov 10</td>
+<td>Memory level parallelism (loop unrolling) <strong>HW4 quiz</strong></td>
+<td></td>
+<td>None</td>
+</tr>
+<tr>
+<td></td>
+<td>Thu, Nov 12</td>
+<td>Memory level parallelism (data structure analysis)</td>
+<td></td>
+<td>None</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Tue, Nov 17</td>
+<td>Superscalar &amp; VLIW architectures</td>
+<td></td>
+<td>None</td>
+</tr>
+<tr>
+<td></td>
+<td>Thu, Nov 19</td>
+<td>Multicore, SMT</td>
+<td>HW5 due</td>
+<td><a href="https://ebookcentral.proquest.com/lib/sjsu/reader.action?docID=7262682&amp;ppg=530&amp;c=RVBVQg">P&amp;H 6.2, 6.4</a></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Tue, Nov 24</td>
+<td>Security (cache side-channel attacks)</td>
+<td></td>
+<td>None</td>
+</tr>
+<tr>
+<td></td>
+<td>Thu, Nov 26</td>
+<td>NO CLASS - Happy Thanksgiving!</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Tue, Dec 1</td>
+<td>SIMD &amp; GPU architectures <strong>HW5 quiz</strong></td>
+<td></td>
+<td><a href="https://ebookcentral.proquest.com/lib/sjsu/reader.action?docID=7262682&amp;ppg=534&amp;c=RVBVQg">P&amp;H 6.3, 6.6</a></td>
+</tr>
+<tr>
+<td></td>
+<td>Thu, Dec 3</td>
+<td>Systolic arrays &amp; hardware-software codesign</td>
+<td></td>
+<td>None</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Thu, Dec 10</td>
+<td><strong>FINAL EXAM - SEC 01</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Tue, Dec 15</td>
+<td><strong>FINAL EXAM - SEC 02</strong></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Many parts of this course are thanks to Leo Porter and Pat Pannuto.</p>
+
+
+</body>
+

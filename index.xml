@@ -27,6 +27,15 @@ Before coming to SJSU, I received my PhD and MS in Computer Science at UC San Di
     </item>
     
     <item>
+      <title>CMPE 120</title>
+      <link>http://oliviaweng.github.io/classes/2026/fall/cmpe120/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://oliviaweng.github.io/classes/2026/fall/cmpe120/</guid>
+      <description>Computer Organization and Architecture Welcome to CMPE 120! We’re so happy to have you in this course. Many of you have been writing programs for a couple of years now, and they have always run on computer hardware. The cool part was that you were able to learn how to program without needing to think much about how the hardware executed your code. But, at some point in your software engineering career, you will be confronted with the fact that some hardware is running your code&amp;mdash;and something is going wrong with the way they are interacting.</description>
+    </item>
+    
+    <item>
       <title>Projects</title>
       <link>http://oliviaweng.github.io/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

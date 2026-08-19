@@ -104,6 +104,27 @@ blockquote {
   padding-left: 24px;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+
+table th, table td {
+  padding: 6px 10px;
+  text-align: left;
+}
+
+table thead th,
+table tbody tr:nth-child(odd) td,
+table tbody tr:nth-last-child(2) td {
+  border-bottom: 1px solid #888888;
+}
+
+table thead th {
+  border-top: 1px solid #888888;
+}
+
 /* top nav */
 .nav {
   text-align: right;
